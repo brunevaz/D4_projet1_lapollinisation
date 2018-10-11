@@ -7,7 +7,7 @@
 
 body {
 font-family: 'Chakra Petch', sans-serif;
-font-size: 15px
+font-size: 10px
 
 }
 
@@ -16,6 +16,11 @@ font-size: 15px
   background-size: cover;
 }
 
+.titre {
+  background : rgba(255, 255, 255, 0.69);
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+  }
 
 .texte {
  text-align: center;
@@ -24,9 +29,8 @@ font-size: 15px
   margin-right: auto;
   text-align: justify;
       text-justify: inter-word;
-
-
 }
+
 
 h1, h2{
 font-family: 'Chakra Petch', sans-serif;
