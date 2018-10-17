@@ -3,19 +3,24 @@
 @import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
 </style>
 
-
-
 body {
+cursor:url('http://m.qpic.cn/psb?/V10l76Zq2vdYRV/fv8oRW4DUvXLPMxyuU0FH3wXmM2x6.eB2OxiG14z9d0!/b/dGcBAAAAAAAA&bo=IAAgACAAIAADGTw!&rf=viewer_4&t=5'),all-scroll;
 font-family: 'Chakra Petch', sans-serif;
-font-size: 15px
-
+font-size: 10px
 }
 
+body{
+    cursor:url('http://m.qpic.cn/psb?/V10l76Zq2vdYRV/fv8oRW4DUvXLPMxyuU0FH3wXmM2x6*.eB2OxiG14z9d0!/b/dGcBAAAAAAAA&bo=IAAgACAAIAADGTw!&rf=viewer_4&t=5'),all-scroll;
+      }
+
 .etape {
-  background : url('../images/flower.png') top center no-repeat;
+  background : url('../images/flower.svg') top center no-repeat;
   background-size: cover;
 }
 
+.titre {
+font-family: 'Chakra Petch', sans-serif;
+  }
 
 .texte {
  text-align: center;
@@ -24,9 +29,23 @@ font-size: 15px
   margin-right: auto;
   text-align: justify;
       text-justify: inter-word;
-
-
 }
+
+.bouton1{
+  list-style-type: none;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
+  position :absolute;
+  left:5%;
+  top: 60%;
+  }
+
+.bouton2{
+  list-style-type: none;
+  position :absolute;
+  right:5%;
+  top: 60%;
+  }
 
 h1, h2{
 font-family: 'Chakra Petch', sans-serif;
@@ -36,14 +55,13 @@ h1 {
   font-size: 70px;
   text-align : center;
   color: rgb(150, 145 , 175)
-}
+  }
+
 h2{
-    text-align : center;
-    font-family: 'Concert One', cursive;
+text-align : center;
+font-family: 'Concert One', cursive;
 }
 
-
-}
 
 .topnav li {
 
@@ -51,22 +69,20 @@ h2{
     overflow: hidden;
     align-content: center; */
 }
-
 .topnav ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
   background: rgb(150, 145 , 175);
   padding: 14px 0;
-    border-radius: 50px;
-}
-
+  border-radius: 50px;
+  }
 .topnav a {
   font-family: 'Concert One', cursive;
   padding: 14px 16px;
   color: rgb(255, 255, 255);
   text-decoration: none;
-}
+  }
 /*    float: left;
     display: block;
     color: rgb(255, 255, 255);
@@ -75,17 +91,14 @@ h2{
     text-decoration: none;
     font-size: 17px; */
 }
-
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
-
 .active {
     background-color: rgb(225, 220 , 235);
     color: white;
 }
-
 .topnav .icon {
     display: none;
 }
