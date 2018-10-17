@@ -14,7 +14,7 @@ body{
       }
 
 .etape {
-  background : url('../images/flower.png') top center no-repeat;
+  background : url('../images/flower.svg') top center no-repeat;
   background-size: cover;
 }
 
