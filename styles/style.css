@@ -13,6 +13,19 @@ body{
     cursor:url('http://m.qpic.cn/psb?/V10l76Zq2vdYRV/fv8oRW4DUvXLPMxyuU0FH3wXmM2x6*.eB2OxiG14z9d0!/b/dGcBAAAAAAAA&bo=IAAgACAAIAADGTw!&rf=viewer_4&t=5'),all-scroll;
       }
 
+  /*   .parallax {
+          background: url("images/mikael-kristenson.jpg");
+          - Set a specific height -
+          height: 300px;
+          - Create the parallax scrolling effect -
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover
+        }
+        <div class="parallax"></div>
+        */
+
 .etape {
   background : url('../images/flower.svg') top center no-repeat;
   background-size: cover;
@@ -31,20 +44,27 @@ font-family: 'Chakra Petch', sans-serif;
       text-justify: inter-word;
 }
 
+.flex-container{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+position: absolute;
+justify-content: space-around;
+justify-content: center;
+}
+
 .bouton1{
   list-style-type: none;
-  flex-wrap: wrap-reverse;
-  justify-content: flex-end;
-  position :absolute;
-  left:5%;
-  top: 60%;
+  position : relative;
   }
 
 .bouton2{
   list-style-type: none;
-  position :absolute;
-  right:5%;
-  top: 60%;
+  position :relative;
+  }
+
+  video{
+    max-width: 900px;
   }
 
 h1, h2{
@@ -102,7 +122,3 @@ font-family: 'Concert One', cursive;
 .topnav .icon {
     display: none;
 }
-
-
-
-body
